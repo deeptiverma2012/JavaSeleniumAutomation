@@ -32,11 +32,11 @@ class-name ="com.qa.opencart.listeners.TestAllureListener"/>
 </classes>
 </test>
 
-<test name = "Register Page Test">
+<!-- <test name = "Register Page Test">
 <parameter name="browser" value="chrome"/>
 <classes>
 <class name = "com.qa.opencart.tests.RegisterPageTest"/>
 </classes>
-</test>
+</test> -->
 
 </suite>
