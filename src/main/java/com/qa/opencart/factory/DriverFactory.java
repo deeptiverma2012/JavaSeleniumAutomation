@@ -24,10 +24,10 @@ public class DriverFactory {
 	public static String highlight = null;
 	
 	public WebDriver initDriver(Properties prop) {
-		String browserName = prop.getProperty("browser");
+		//String browserName = prop.getProperty("browser");
 		
 		
-		//String browserName = System.getProperty("browser");// To pass environmt as a commandline argument write System.setProperty instead of prop.getProperty()
+		String browserName = System.getProperty("browser");// To pass environmt as a commandline argument write System.setProperty instead of prop.getProperty()
 		
 		System.out.println("browser name is:"+browserName);
 		highlight = prop.getProperty("highlight");
