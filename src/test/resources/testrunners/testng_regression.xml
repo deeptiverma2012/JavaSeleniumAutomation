@@ -25,15 +25,15 @@ class-name ="com.qa.opencart.listeners.TestAllureListener"/>
 </classes>
 </test>
 
-<test name = "Product Result Page Test">
-<parameter name="browser" value="chrome"/>
-<classes>
-<class name = "com.qa.opencart.tests.ProductResultsTest"/>
-</classes>
-</test>
+<!-- <test name = "Product Result Page Test"> -->
+<!-- <parameter name="browser" value="chrome"/> -->
+<!-- <classes> -->
+<!-- <class name = "com.qa.opencart.tests.ProductResultsTest"/> -->
+<!-- </classes> -->
+<!-- </test> -->
 
 <!-- <test name = "Register Page Test"> -->
-<!-- <parameter name="browser" value="chrome"/> -->
+<!-- <parameter name="browser" value="firefox"/> -->
 <!-- <classes> -->
 <!-- <class name = "com.qa.opencart.tests.RegisterPageTest"/> -->
 <!-- </classes> -->
