@@ -13,20 +13,26 @@ class-name ="com.qa.opencart.listeners.TestAllureListener"/>
 
 <test name = "Login Page Test">
 <parameter name="browser" value="chrome"/>
+<parameter name="browserversion" value="119"/>
+<parameter name="testname" value="Open cart- Login Page Test" />
 <classes>
 <class name = "com.qa.opencart.tests.LoginPageTest"/>
 </classes>
 </test>
 
 <test name = "Accounts Page Test">
-<parameter name="browser" value="firefox"/>
+<parameter name="browser" value="chrome"/>
+<parameter name="browserversion" value="113"/>
+<parameter name="testname" value="Open cart- Accounts Page Test" />
 <classes>
 <class name = "com.qa.opencart.tests.AccountsPageTest"/>
 </classes>
 </test>
 
 <test name = "Product Result Page Test">
-<parameter name="browser" value="edge"/>
+<parameter name="browser" value="firefox"/>
+<parameter name="browserversion" value="117"/>
+<parameter name="testname" value="Open cart- Product Result Page Test" />
 <classes>
 <class name = "com.qa.opencart.tests.ProductResultsTest"/>
 </classes>
@@ -34,6 +40,9 @@ class-name ="com.qa.opencart.listeners.TestAllureListener"/>
 
 <!-- <test name = "Register Page Test"> -->
 <!-- <parameter name="browser" value="firefox"/> -->
+<!-- <parameter name="browser" value="chrome"/> -->
+<!-- <parameter name="browserversion" value="111"/> -->
+<!-- <parameter name="testname" value="Open cart- Register Page Test" /> -->
 <!-- <classes> -->
 <!-- <class name = "com.qa.opencart.tests.RegisterPageTest"/> -->
 <!-- </classes> -->
